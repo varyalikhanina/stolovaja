@@ -1,0 +1,12 @@
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(45deg);
+	}
+}
+
+.footer__mobile-button-span_active {
+    animation: rotate .1s linear forwards;
+}

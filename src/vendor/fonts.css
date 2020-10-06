@@ -1,0 +1,11 @@
+@font-face {
+	src: url('../fonts/MyriadPro-Regular.woff') format('woff');
+	font-family: 'MyriadPro';
+	font-weight: 400;
+}
+
+@font-face {
+	src: url('../fonts/MyriadPro-LightSemiExt.woff') format('woff');
+	font-family: 'MyriadPro';
+	font-weight: 300;
+}

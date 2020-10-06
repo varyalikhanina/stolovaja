@@ -1,0 +1,28 @@
+@import url('_no-border/header__container_no-border.css');
+
+.header__container {
+    display: flex;
+    align-items: center;
+    padding: 0 188px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__container {
+        padding: 15px 94px;
+        background-color: #f1f1f1;
+        border-bottom: 1px solid #e5e5e5;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header__container {
+        padding: 15px 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__container {
+        padding: 15px 15px;
+    }
+}

@@ -1,0 +1,5 @@
+.nav__link_mail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

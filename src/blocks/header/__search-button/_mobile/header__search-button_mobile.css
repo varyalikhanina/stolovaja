@@ -1,0 +1,15 @@
+.header__search-button_mobile {
+    left: calc(100% - 94px - 50px);
+}
+
+@media screen and (max-width: 850px) {
+    .header__search-button_mobile {
+        left: calc(100% - 30px - 50px);
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header__search-button_mobile {
+        left: calc(100% - 15px - 50px);
+    }
+}

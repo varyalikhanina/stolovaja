@@ -1,0 +1,9 @@
+.news__main {
+    max-width: 490px;
+}
+
+@media screen and (max-width: 1730px) {
+    .news__main {
+        display: none;
+    }
+}

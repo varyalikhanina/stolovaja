@@ -1,0 +1,28 @@
+.header__button-call {
+    height: 50px;
+    width: 50px;
+    background-image: url('../../../images/telephone.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: none;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__button-call {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .header__button-call {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__button-call {
+        height: 20px;
+        width: 20px;
+    }
+}

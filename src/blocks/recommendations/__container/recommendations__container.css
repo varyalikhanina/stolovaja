@@ -1,0 +1,25 @@
+.recommendations__container {
+    display: grid;
+    grid-template-columns: 595px 785px;
+    grid-template-rows: 420px 315px;
+    grid-template-areas: 
+    "first second"
+    "first third";
+    grid-gap: 10px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1860px) {
+    .recommendations__container {
+        grid-template-columns: 476px 556px;
+        grid-template-rows: 336px 252px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .recommendations__container {
+        display: flex;
+        flex-direction: column;
+    }
+}

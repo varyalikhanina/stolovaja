@@ -1,0 +1,5 @@
+.header__company-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

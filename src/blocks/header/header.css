@@ -1,0 +1,34 @@
+@import url('__container/header__container.css');
+@import url('__cart/header__cart.css');
+@import url('__cart-image/header__cart-image.css');
+@import url('__cart-content/header__cart-content.css');
+@import url('__cart-text/header__cart-text.css');
+@import url('__link/header__link.css');
+@import url('__link-image/header__link-image.css');
+@import url('__link-content/header__link-content.css');
+@import url('__logo/header__logo.css');
+@import url('__name/header__name.css');
+@import url('__search/header__search.css');
+@import url('__search-all/header__search-all.css');
+@import url('__search-button/header__search-button.css');
+@import url('__search-input/header__search-input.css');
+@import url('__submenu/header__submenu.css');
+@import url('__submenu-item/header__submenu-item.css');
+@import url('__submenu-text/header__submenu-text.css');
+@import url('__burger/header__burger.css');
+@import url('__button-call/header__button-call.css');
+@import url('__button-search/header__button-search.css');
+@import url('__submenu-link/header__submenu-link.css');
+@import url('__submenu-arrow_active/header__submenu-arrow_active.css');
+@import url('__description/header__description.css');
+@import url('__name-wrapper/header__name-wrapper.css');
+@import url('__logo-container/header__logo-container.css');
+@import url('__company-container/header__company-container.css');
+@import url('__button-container/header__button-container.css');
+
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

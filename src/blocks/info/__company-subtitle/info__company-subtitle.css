@@ -1,0 +1,12 @@
+.info__company-subtitle {
+    color: #777777;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0 0 35px;
+}
+
+@media screen and (max-width: 767px) {
+    .info__company-subtitle {
+        font-size: 12px;
+    }
+}

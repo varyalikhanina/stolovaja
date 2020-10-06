@@ -1,0 +1,32 @@
+.recommendations__item_second {
+    background-image: url('../../../../images/recommend-2.png');
+    grid-area: second;
+    color: #fff;
+    text-align: left;
+    padding: 120px 140px 120px 245px;
+}
+
+@media screen and (max-width: 1860px) {
+    .recommendations__item_second {
+        padding: 65px 20px 20px 130px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .recommendations__item_second {
+        background-image: url('../../../../images/recommend-2-small.png');
+        padding: 73px 68px 73px 370px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .recommendations__item_second {
+        padding: 73px 68px 73px 260px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .recommendations__item_second {
+        color: inherit;
+    }
+}

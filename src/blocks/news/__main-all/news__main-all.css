@@ -1,0 +1,16 @@
+.news__main-all {
+    margin-top: 50px;
+    padding: 10px 40px;
+    font-size: 16px;
+    border: 2px solid #282828;
+    border-radius: 30px;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    transition: .1s ease-in-out;
+}
+
+.news__main-all:hover {
+    background-color: #282828;
+    color: #e8e7e7;
+}

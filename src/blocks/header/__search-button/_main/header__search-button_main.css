@@ -1,0 +1,4 @@
+.header__search-button_main {
+    left: calc(100% - 50px);
+    border-radius: 0 10px 10px 0;
+}

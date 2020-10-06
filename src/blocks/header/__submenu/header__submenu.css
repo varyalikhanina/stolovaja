@@ -1,0 +1,32 @@
+@import url('_open/header__submenu_open.css');
+
+.header__submenu {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 10px 188px 15px;
+    box-shadow: 4px 6px 18px 0px rgba(0, 0, 0, 0.11);
+}
+
+@media screen and (max-width: 1400px) {
+    .header__submenu {
+        display: none;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px 94px 15px;
+        box-shadow: none;
+        border-top: 1px solid #e5e5e5;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header__submenu {
+        padding: 10px 30px 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__submenu {
+        padding: 5px 15px;
+    }
+}

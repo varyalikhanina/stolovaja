@@ -1,0 +1,18 @@
+.recommendations__item-text {
+    color: #777777;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1380px) {
+    .recommendations__item-text {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .recommendations__item-text {
+        font-size: 18px;
+    }
+}

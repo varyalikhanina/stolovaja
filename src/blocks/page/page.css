@@ -1,0 +1,23 @@
+@import url('../nav/nav.css');
+@import url('../header/header.css');
+@import url('../main/main.css');
+@import url('../swiper/swiper.css');
+@import url('../brands/brands.css');
+@import url('../news/news.css');
+@import url('../recommendations/recommendations.css');
+@import url('../info/info.css');
+@import url('../footer/footer.css');
+
+.page {
+	font-family: 'MyriadPro', 'Arial', sans-serif;
+	background-color: #e8e7e7;
+    max-width: 1920px;
+	margin: 0 auto;
+	overflow: hidden;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	text-rendering: optimizeLegibility;
+}

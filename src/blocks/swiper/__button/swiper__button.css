@@ -1,0 +1,21 @@
+.swiper__button {
+    font-size: 18px;
+    color: #fff;
+    background-color: #ffaf2d;
+    border-radius: 30px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+    outline: none;
+}
+
+.swiper__button:hover {
+    background-color: #00aa4b;
+}
+
+@media screen and (max-width: 600px) {
+    .swiper__button {
+        font-size: 14px;
+    }
+}

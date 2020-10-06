@@ -1,0 +1,5 @@
+.nav__link_tel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

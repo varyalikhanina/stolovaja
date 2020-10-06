@@ -1,0 +1,69 @@
+@import url('__description/swiper__description.css');
+@import url('__subtitle/swiper__subtitle.css');
+@import url('__title/swiper__title.css');
+@import url('__button/swiper__button.css');
+@import url('__text/swiper__text.css');
+@import url('__image/swiper__image.css');
+
+.swiper-container {
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    margin: 0 30px 0 0 !important;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #232323;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.swiper-pagination-bullet {
+    background-color: transparent;
+    border: 1px solid #fff;
+    outline: none;
+    opacity: 1 !important;
+}
+
+.swiper-pagination-bullet-active {
+    border: 1px solid transparent;
+    background-color: #fff !important;
+}
+
+.swiper-button-next:focus, .swiper-button-prev:focus {
+    outline: none;
+}
+
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 30px !important;
+    color: #a9a9a9;
+}
+
+@media screen and (max-width: 1100px) {
+    .swiper-container {
+        width: 100%;
+        margin: 0 !important;
+        height: 555px;
+    }
+    .swiper-button-next, .swiper-button-prev {
+        top: 95% !important;
+    }
+    .swiper-button-next {
+        right: 15px !important;
+    }
+    .swiper-button-prev {
+        left: 15px !important;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .swiper-container {
+        height: 400px;
+    }
+    .swiper-button-next::after, .swiper-button-prev::after {
+        font-size: 18px !important;
+    }
+}

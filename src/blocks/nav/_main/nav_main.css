@@ -1,0 +1,10 @@
+.nav_main {
+    display: flex;
+    padding: 0 188px;
+}
+
+@media screen and (max-width: 1280px) {
+    .nav_main {
+        display: none;
+    }
+}

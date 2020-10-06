@@ -1,0 +1,12 @@
+.info__logo {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .info__logo {
+        width: 100px;
+        height: 100px;
+    }
+}

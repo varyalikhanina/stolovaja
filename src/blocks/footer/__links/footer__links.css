@@ -1,0 +1,27 @@
+.footer__links {
+    display: flex;
+    justify-content: space-between;
+    background-color: #232323;
+    width: calc(100% - (252px*2));
+    padding: 90px 252px 80px;
+}
+
+@media screen and (max-width: 1860px) {
+    .footer__links {
+        width: calc(100% - (188px*2));
+        padding: 90px 188px 150px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .footer__links {
+        width: calc(100% - (94px*2));
+        padding: 90px 94px 150px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .footer__links {
+        display: none;
+    }
+}

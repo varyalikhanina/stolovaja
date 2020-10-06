@@ -1,0 +1,36 @@
+@import url('__container/brands__container.css');
+@import url('__item-text/brands__item-text.css');
+@import url('__item/brands__item.css');
+
+.brands {
+    width: calc(100% - (188px*2));
+    padding: 0 188px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .brands {
+        width: calc(100% - (94px*2));
+        padding: 0 94px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .brands {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .brands {
+        width: calc(100% - (30px*2));
+        padding: 0 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .brands {
+        width: calc(100% - (15px*2));
+        padding: 0 15px;
+    }
+}

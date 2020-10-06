@@ -1,0 +1,43 @@
+@import url('__main/news__main.css');
+@import url('__main-title/news__main-title.css');
+@import url('__wrapper/news__wrapper.css');
+@import url('__main-text/news__main-text.css');
+@import url('__main-heading/news__main-heading.css');
+@import url('__date/news__date.css');
+@import url('__company/news__company.css');
+@import url('__main-all/news__main-all.css');
+@import url('__container/news__container.css');
+@import url('__item/news__item.css');
+@import url('__item-heading/news__item-heading.css');
+@import url('__item-content/news__item-content.css');
+
+.news {
+    width: calc(100% - (252px*2));
+    padding: 0 252px;
+    margin: 170px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1860px) {
+    .news {
+        width: calc(100% - (188px*2));
+        padding: 0 188px;
+        align-items: center;
+        margin: 100px auto 0;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .news {
+        width: calc(100% - (94px*2));
+        padding: 0 94px;
+        margin: 80px auto 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .news {
+        display: none;
+    }
+}

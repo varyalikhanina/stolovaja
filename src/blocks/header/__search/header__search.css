@@ -1,0 +1,7 @@
+@import url('_open/header__search_open.css');
+@import url('_main/header__search_main.css');
+@import url('_mobile/header__search_mobile.css');
+
+.header__search {
+    position: relative;
+}

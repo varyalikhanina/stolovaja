@@ -1,0 +1,23 @@
+.main__offers-subtitle {
+    margin: 15px 0 0 0;
+    font-size: 18px;
+    color: #121212;
+}
+
+@media screen and (max-width: 1650px) {
+    .main__offers-subtitle {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .main__offers-subtitle {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .main__offers-subtitle {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,23 @@
+.header__submenu-item {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .1s ease-in-out;
+    cursor: pointer;
+}
+
+.header__submenu-item:hover {
+    opacity: 0.8;
+}
+
+@media screen and (max-width: 1400px) {
+    .header__submenu-item {
+        align-items: flex-start;
+        margin: 7px 0;
+        padding: 0;
+    }
+    .header__submenu-item img {
+        display: none;
+    }
+}

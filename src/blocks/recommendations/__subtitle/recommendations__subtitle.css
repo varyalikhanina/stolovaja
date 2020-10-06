@@ -1,0 +1,20 @@
+.recommendations__subtitle {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    color: #787878;
+    max-width: 665px;
+    margin: 0 auto 65px;
+}
+
+@media screen and (max-width: 1380px) {
+    .recommendations__subtitle {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .recommendations__subtitle {
+        font-size: 20px;
+    }
+}

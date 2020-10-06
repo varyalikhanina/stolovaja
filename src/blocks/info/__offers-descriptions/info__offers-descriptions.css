@@ -1,0 +1,11 @@
+.info__offers-descriptions {
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+    .info__offers-descriptions {
+        font-size: 14px;
+    }
+}

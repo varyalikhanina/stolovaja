@@ -1,0 +1,6 @@
+.header__name-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+}

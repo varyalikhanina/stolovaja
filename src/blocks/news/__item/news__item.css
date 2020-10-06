@@ -1,0 +1,14 @@
+.news__item {
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.news__item:last-of-type {
+    display: none;
+}
+
+@media screen and (max-width: 1730px) {
+    .news__item:last-of-type {
+        display: flex;
+    }
+}

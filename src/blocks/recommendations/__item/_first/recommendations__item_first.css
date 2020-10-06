@@ -1,0 +1,27 @@
+.recommendations__item_first {
+    background-image: url('../../../../images/recommend-1.png');
+    grid-area: first;
+    color: #121212;
+    text-align: center;
+    padding: 70px 155px;
+}
+
+@media screen and (max-width: 1860px) {
+    .recommendations__item_first {
+        padding: 35px;
+    }
+}
+
+@media screen and (max-width: 1380px) {
+    .recommendations__item_first {
+        background-image: url('../../../../images/recommend-1-small.png');
+        padding: 116px 350px 116px 68px;
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .recommendations__item_first {
+        padding: 80px 250px 80px 68px;
+    }
+}

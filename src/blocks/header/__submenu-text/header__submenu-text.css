@@ -1,0 +1,26 @@
+.header__submenu-text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #343434;
+    text-align: center;
+    margin: 5px 0 0;
+}
+
+@media screen and (max-width: 1600px) {
+    .header__submenu-text {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .header__submenu-text {
+        font-size: 16px;
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__submenu-text {
+        font-size: 12px;
+    }
+}

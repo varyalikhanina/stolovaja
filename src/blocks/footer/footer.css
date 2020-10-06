@@ -1,0 +1,20 @@
+@import url('__item/footer__item.css');
+@import url('__item-link/footer__item-link.css');
+@import url('__items/footer__items.css');
+@import url('__links/footer__links.css');
+@import url('__title/footer__title.css');
+@import url('__credits/footer__credits.css');
+@import url('__copyright/footer__copyright.css');
+@import url('__logo/footer__logo.css');
+@import url('__name/footer__name.css');
+@import url('__subtitle/footer__subtitle.css');
+@import url('__wrapper/footer__wrapper.css');
+@import url('__mobile-menu/footer__mobile-menu.css');
+@import url('__mobile-button/footer__mobile-button.css');
+@import url('__dropdown/footer__dropdown.css');
+@import url('__mobile-button-span/footer__mobile-button-span_active.css');
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,21 @@
+.header__search-all {
+    background-color: #f1f1f1;
+    min-width: 65px;
+    height: 35px;
+    transition: .2s ease-in-out;
+    border: none;
+    outline: none;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+    margin-left: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 18px;
+}  
+
+@media screen and (max-width: 1280px) {
+    .header__search-all {
+        display: none;
+    }
+}

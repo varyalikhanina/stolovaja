@@ -1,0 +1,25 @@
+.footer__mobile-menu {
+    display: none;
+    flex-direction: column;
+    padding: 60px 45px 45px;
+    background-color: #282828;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 850px) {
+    .footer__mobile-menu {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .footer__mobile-menu {
+        padding: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .footer__mobile-menu {
+        padding: 15px;
+    }
+}

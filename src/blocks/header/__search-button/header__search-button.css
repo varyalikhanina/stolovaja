@@ -1,0 +1,21 @@
+@import url('_main/header__search-button_main.css');
+@import url('_mobile/header__search-button_mobile.css');
+
+.header__search-button {
+    background-color: #ffaf2d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    border: none;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    outline: none;
+}  
+
+.header__search-button:hover {
+    opacity: 0.8;
+}

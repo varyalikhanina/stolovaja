@@ -1,0 +1,57 @@
+@import url('__company-figures/info__company-figures.css');
+@import url('__company-item/info__company-item.css');
+@import url('__company-items/info__company-items.css');
+@import url('__company-name/info__company-name.css');
+@import url('__company-subtitle/info__company-subtitle.css');
+@import url('__company-type/info__company-type.css');
+@import url('__company/info__company.css');
+@import url('__logo/info__logo.css');
+@import url('__offers-descriptions/info__offers-descriptions.css');
+@import url('__offers/info__offers.css');
+@import url('__subtitle/info__subtitle.css');
+@import url('__text-container/info__text-container.css');
+@import url('__title/info__title.css');
+@import url('__offers-more/info__offers-more.css');
+
+.info {
+    width: calc(100% - (252px*2));
+    padding: 0 252px 170px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 1860px) {
+    .info {
+        width: calc(100% - (188px*2));
+        padding: 0 188px 150px;
+    }
+}
+
+@media screen and (max-width: 1660px) {
+    .info {
+        flex-direction: column-reverse;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .info {
+        width: calc(100% - (94px*2));
+        padding: 0 94px 100px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .info {
+        width: calc(100% - (30px*2));
+        padding: 0 30px 80px;
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .info {
+        width: calc(100% - (15px*2));
+        padding: 0 15px 80px;
+    }
+}

@@ -1,0 +1,6 @@
+@import url('../blocks/page/page.css');
+@import url('../vendor/fonts.css');
+
+body {
+	margin: 0;
+}

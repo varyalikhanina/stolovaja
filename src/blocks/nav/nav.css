@@ -1,0 +1,11 @@
+@import url('__link/nav__link.css');
+@import url('__link-content/nav__link-content.css');
+@import url('_main/nav_main.css');
+@import url('_mobile/nav_mobile.css');
+@import url('_open/nav_open.css');
+
+.nav {
+    max-width: 100%;
+    background-color: #00aa4b;
+    justify-content: space-between;
+}

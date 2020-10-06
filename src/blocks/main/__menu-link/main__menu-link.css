@@ -1,0 +1,33 @@
+.main__menu-link {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 300;
+    color: #303030;
+    display: flex;
+    padding: 17px 22px 13px 29px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+    transition: .1s linear;
+}
+
+.main__menu-link:last-of-type {
+    border-bottom: none;
+}
+
+.main__menu-link:hover {
+    background-color: #e8e7e7;
+}
+
+@media screen and (max-width: 1820px) {
+    .main__menu-link {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .main__menu-link {
+        font-size: 12px;
+    }
+}

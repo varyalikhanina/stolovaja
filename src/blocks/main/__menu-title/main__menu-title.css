@@ -1,0 +1,13 @@
+.main__menu-title {
+    color: #ffaf2d;
+    font-size: 24px;
+    font-weight: 400;
+    padding: 33px 16px 13px 28px;
+    margin: 0;
+}
+
+@media screen and (max-width: 1650px) {
+    .main__menu-title {
+        font-size: 18px;
+    }
+}

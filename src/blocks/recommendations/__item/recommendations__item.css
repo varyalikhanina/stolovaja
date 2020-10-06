@@ -1,0 +1,38 @@
+@import url('_first/recommendations__item_first.css');
+@import url('_second/recommendations__item_second.css');
+@import url('_third/recommendations__item_third.css');
+
+.recommendations__item {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 1380px) {
+    .recommendations__item {
+        height: 480px;
+        background-size: cover;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .recommendations__item {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .recommendations__item {
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .recommendations__item {
+        padding: 20px;
+        background-image: none;
+        background-color: #fff;
+        height: auto;
+    }
+}

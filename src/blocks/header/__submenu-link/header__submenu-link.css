@@ -1,0 +1,48 @@
+.header__submenu-link {
+    padding: 30px 188px;
+    text-align: left;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    background-color: #f1f1f1;
+    font-size: 30px;
+    font-weight: 300;
+    justify-content: space-between;
+    display: none;
+    color: #000;
+}
+
+.header__submenu-link span {
+    color: #777777;
+}
+
+@media screen and (max-width: 1400px) {
+    .header__submenu-link {
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .header__submenu-link {
+        padding: 30px 94px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .header__submenu-link {
+        padding: 30px 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__submenu-link {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .header__submenu-link {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
